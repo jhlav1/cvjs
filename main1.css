@@ -1,0 +1,130 @@
+ 
+body {
+	background-color: rgb(248, 247, 247);
+	color: #594846;
+	font-family: Verdana;
+    font-size: 16px;
+    
+}
+
+p {
+  margin: 0.5em 0.25em;
+}
+
+#h1-cv{
+  margin-top: 0px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+}
+#h4-cv{
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 300;
+  text-align: center;
+}
+.dl-cv {
+  margin: 0 0.5em;
+}
+.dt-cv {
+  font-weight: bold;
+  margin: 0.5em 1em 0.5em 0;
+  border-bottom: 1px dashed #7b96bc; /* .................. create a border down the text*/
+}
+ 
+.header p {
+  margin-left: -1000px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Structure */
+
+.clear{
+  clear: both;
+}
+
+.footer {
+  background-color: rgb(67, 82, 110);
+  color: #f9f3e9;
+  text-align: center;
+  padding: .2em 0;   /* ......... padding creates a background field with height of .5em*/
+  font-style: italic;
+}
+
+img, object {
+   max-width: 100%;
+}
+
+body,.footer {
+ width: 100%;
+}
+ 
+.column {
+margin: 10px 1.0416% 0 0;
+}
+
+#visit {
+width: 20%;
+float: left;
+border: thin solid rgb(35, 35, 75);
+padding: 10px;
+ 
+}
+
+#main {
+margin: 10px;
+
+padding: 5px;
+background-color: rgb(240, 239, 239);
+width: 60%;
+float: left;
+
+ }
+
+#content-cv{
+    display: flex;
+    justify-content: center;
+
+} 
+
+.contact-line{
+  
+  padding: 5px 40px;
+  background: #dddddd;
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#photografi{
+  background:url(images/jhl1.png) no-repeat;
+  height: 200px;
+  background-position: center;
+}
+
+.container-with-rubrik{
+	width: 50 px;
+	height:30px;
+	border-bottom: 2px solid rgb(67, 82, 110);
+	padding-left: 30px; 
+	background-image: url(images/rectangul_blue2.png);
+	background-repeat: no-repeat; 
+}
